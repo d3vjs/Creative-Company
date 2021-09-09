@@ -46,6 +46,7 @@ const useToggleMenu = () => {
      * Function to restore all states to it default values.
      */
     const restoreToDefault = () => {
+        console.log('test')
         setIsOpen(false);
         setIsExpanded(false);
         setIsTransitionend(true);

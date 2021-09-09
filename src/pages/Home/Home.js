@@ -5,8 +5,42 @@ import { GlobalStyle } from '../../Theme'
 import { StyledMainPageContainer } from './HomeStyles'
 
 import phoneImg from '../../assets/images/image-hero-phone.png'
+import DesignView from '../../components/DesignView/DesignView'
 
 function Home() {
+
+    const designViewData = [
+        {
+            title: 'web design',
+            width: '32.7rem',
+            height: '25rem',
+            svgName: 'web',
+        },
+        {
+            title: 'app design',
+            width: '32.7rem',
+            height: '25rem',
+            svgName: 'app',
+        },
+        {
+            title: 'graphic design',
+            width: '32.7rem',
+            height: '25rem',
+            svgName: 'graphic',
+        },
+    ];
+    const renderList = designViewData.map((item, idx) => {
+        return (
+            <DesignView
+                key={idx}
+                title={item.title}
+                svgName={item.svgName}
+                width={item.width}
+                height={item.height}
+                home="true"
+            />
+        );
+    });
     return (
         <StyledMainPageContainer>
             <GlobalStyle />
@@ -33,6 +67,7 @@ function Home() {
                         <img src={phoneImg} alt="hero phone" />
                     </div>
                 </div>
+                <div className="desing-view-container">{renderList}</div>
             </main>
         </StyledMainPageContainer>
     )
