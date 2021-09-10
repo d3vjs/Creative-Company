@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header/Header'
 import { GlobalStyle } from '../../Theme'
@@ -10,6 +10,10 @@ import HomeFeature from '../../components/HomeFeature/HomeFeature'
 import Footer from '../../components/Footer/Footer'
 
 function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
 
     const designViewData = [
         {
