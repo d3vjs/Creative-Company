@@ -6,6 +6,8 @@ import { StyledMainPageContainer } from './HomeStyles'
 
 import phoneImg from '../../assets/images/image-hero-phone.png'
 import DesignView from '../../components/DesignView/DesignView'
+import HomeFeature from '../../components/HomeFeature/HomeFeature'
+import Footer from '../../components/Footer/Footer'
 
 function Home() {
 
@@ -68,6 +70,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="desing-view-container">{renderList}</div>
+                <HomeFeature />
+                <Footer />
             </main>
         </StyledMainPageContainer>
     )
