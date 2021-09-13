@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
 import Locations from './pages/Locations/Locations';
+import GraphicDesign from './pages/GraphicDesign/GraphicDesign';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/locations" exact>
           <Locations />
+        </Route>
+        <Route path="/graphic">
+          <GraphicDesign />
         </Route>
       </Switch>
     </Router>
