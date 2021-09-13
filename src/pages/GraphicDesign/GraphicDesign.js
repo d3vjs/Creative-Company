@@ -80,7 +80,7 @@ function GraphicDesign() {
                 />
 
                 <div className="design-cards">{renderDesignCards}</div>
-                <div className="desing-view-container">{renderList}</div>
+                <div className="design-view-container">{renderList}</div>
 
                 <Footer />
             </main>

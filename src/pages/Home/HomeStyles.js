@@ -47,7 +47,7 @@ export const StyledMainPageContainer = styled.div`
         margin-top: -11rem;
         height: 91.3rem;
     }
-    .desing-view-container {
+    .design-view-container {
         height: 79.8rem;
         display: flex;
         flex-direction: column;
@@ -79,7 +79,7 @@ export const StyledMainPageContainer = styled.div`
             font-size: 1.6rem;
             line-height: 2.6rem;
         }
-        .desing-view-container {
+        .design-view-container {
             height: 64.9rem;
         }
     }
@@ -107,7 +107,7 @@ export const StyledMainPageContainer = styled.div`
             height: 64rem;
             margin-top: 1.5rem;
         }
-        .desing-view-container {
+        .design-view-container {
             height: 64rem;
             width: 111.2rem;
             flex-wrap: wrap;

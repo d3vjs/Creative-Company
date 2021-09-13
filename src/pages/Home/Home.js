@@ -73,7 +73,7 @@ function Home() {
                         <img src={phoneImg} alt="hero phone" />
                     </div>
                 </div>
-                <div className="desing-view-container">{renderList}</div>
+                <div className="design-view-container">{renderList}</div>
                 <HomeFeature />
                 <Footer />
             </main>

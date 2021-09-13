@@ -4,6 +4,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
 import Locations from './pages/Locations/Locations';
 import GraphicDesign from './pages/GraphicDesign/GraphicDesign';
+import AppDesign from './pages/AppDesign/AppDesign';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/graphic">
           <GraphicDesign />
+        </Route>
+        <Route path="/app">
+          <AppDesign />
         </Route>
       </Switch>
     </Router>
