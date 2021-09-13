@@ -5,6 +5,7 @@ import Contact from './pages/Contact/Contact';
 import Locations from './pages/Locations/Locations';
 import GraphicDesign from './pages/GraphicDesign/GraphicDesign';
 import AppDesign from './pages/AppDesign/AppDesign';
+import WebDesign from './pages/WebDesign/WebDesign';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/app">
           <AppDesign />
+        </Route>
+        <Route path="/web">
+          <WebDesign />
         </Route>
       </Switch>
     </Router>
