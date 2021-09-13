@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Bars, Container, HeaderDiv, List, Menu, Nav } from './HeaderSmStyles'
+import { Bars, Container, List, Menu, Nav } from './HeaderSmStyles'
 
 import logoImg from '../../../assets/images/logo-light.png';
 
@@ -23,6 +23,7 @@ function HeaderSm({ windowWidth }) {
         if (windowWidth >= tabletBreakpoint) {
             restoreToDefault();
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [windowWidth]);
 
     return (

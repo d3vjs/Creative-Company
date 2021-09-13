@@ -1,4 +1,3 @@
-import burgerIcon from '../../../assets/images/icon-hamburger.svg';
 import styled from 'styled-components';
 
 export const HeaderDiv = styled.header`
